@@ -2,8 +2,10 @@ import React from "react";
 
 function Card(){
     return(
-        <section>
-            
+        <section className="">
+            <div className="projects">
+
+            </div>
         </section>
     );
 }
