@@ -13,9 +13,9 @@ function Footer() {
         <section className="footer">
             <div className="linkBox">
                 <ul className="links">
-                    <li href={gitrepo}>Github Repos</li>
-                    <li href={linkedin}>Linkedin</li>
-                    <li href={overflow}>Stack Overflow</li>
+                    <li href={gitrepo}><img src={gitImage} className="my-2" style={{width: "100%"}} href={gitrepo} /></li>
+                    <li href={linkedin}><img src={linkedin} className="my-2" style={{width: "100%"}} href={linkedinImg} /></li>
+                    <li href={overflow}><img src={overflow} className="my-2" style={{width: "100%"}} href={stackOverflowImg} /></li>
                 </ul>
             </div>
         </section>

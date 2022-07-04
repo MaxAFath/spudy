@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import './components/Nav';
-import './components/About';
+import Nav from './components/Nav';
 import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <Nav></Nav>
       <main>
         <About></About>
+        <Contact></Contact>
       </main>
+      <Footer></Footer>
     </div>
   );
 }
