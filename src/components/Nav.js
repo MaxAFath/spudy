@@ -7,7 +7,7 @@ function Nav() {
 
     return (
         <section>
-            <un>
+            <un className="">
                 <li className="nav"><a href={about}> about</a></li>
                 <li className="nav"><a href={contact}>Contact</a></li>
                 <li className="nav"><a href={projects}>Projects</a></li>

@@ -6,8 +6,7 @@ function About() {
             <div className="hero">
                 <h1 id="about">Max A Fathauer</h1>
                 <p id="heroInfo">
-                    Graduated from Cuyahoga Community College in 2017, with a Associates of Arts.
-                    I am currently studing full-stack web developer at Case Western Reserve University Coding bootcamp.
+                    Hello! My name is Max Fathauer. I'm studying full-stack development at Case Western Reserve University Coding Bootcamp. I currently a lifetime resident of Cleveland. Unfortunately, I currently do not have professional experience doing web development. But my currently employement is at UPS since 2017. And since March 2018 I took a promotion to supervisor.
                 </p>
             </div>
         </section>
