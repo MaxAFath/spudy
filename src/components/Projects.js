@@ -1,20 +1,14 @@
 import React from "react";
+import zenProject from './cards/Zenproject';
+import UpcycleStore from "./cards/upcycle";
 
-function Card(){
+
+
+function projects(){
     return(
         <section className="projects">
-            <div className="card">
-                <a href="https://maxafath.github.io/the-zen-project/">
-                    <img src="" alt="The Zen Porject"></img>
-                </a>
-                <h4 className="title">Zen Project</h4>
-            </div>
-            <div className="card">
-                <a href="https://github.com/MaxAFath/project-two">
-                    <img src="" alt="Upcycle" />
-                </a>
-                <h4 className="title">Upcycle</h4>
-            </div>
+            <zenProject></zenProject>
+            <UpcycleStore></UpcycleStore>
             <div className="card">
                 <a href="">
                     <img src="" alt="Nerd game" />
@@ -31,4 +25,13 @@ function Card(){
     );
 }
 
-export default Card;
+export default projects;
+
+/* card format place new cards in card folder
+<div className="card">
+                <a href="">
+                    <img src="" alt="General norms quiz" />
+                </a>
+                <h4 className="title">General Norms quiz</h4>
+            </div>
+*/
