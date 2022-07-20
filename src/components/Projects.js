@@ -1,20 +1,14 @@
 import React from "react";
-import zenProject from './cards/Zenproject';
-import UpcycleStore from "./cards/upcycle";
+import ZenProject from "./cards/Zenproject";
+import UpcycleStore from "./cards/Upcycle";
 
 
 
 function projects(){
     return(
         <section className="projects">
-            <zenProject></zenProject>
+            <ZenProject></ZenProject>
             <UpcycleStore></UpcycleStore>
-            <div className="card">
-                <a href="">
-                    <img src="" alt="Nerd game" />
-                </a>
-                <h4 className="title">The nerd game</h4>
-            </div>
             <div className="card">
                 <a href="">
                     <img src="" alt="General norms quiz" />

@@ -1,11 +1,11 @@
 import react from "react";
-import zenProject from '../../assets/imgs/zen-project.png';
+import zenProjectimg from "../../assets/imgs/img-1.png";
 
 function theZen(){
     return(
-        <div className="card">
+        <div className="card flex-row">
                 <a href="https://maxafath.github.io/the-zen-project/">
-                    <img src={zenProject} alt="The Zen Porject"></img>
+                    <img src={zenProjectimg} alt="The Zen Porject"></img>
                 </a>
                 <h4 className="title">Zen Project</h4>
             </div>

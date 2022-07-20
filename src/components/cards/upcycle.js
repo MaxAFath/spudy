@@ -1,11 +1,11 @@
 import react from "react";
-import upcycleImg from '../../assets/imgs/upcycle.png';
-
+import imgTwo from '../../assets/imgs/img-2.png';
+//src\assets\imgs\upcycle.png
 function UpcycleStore() {
     return (
-        <div className="card">
+        <div className="card flex-row">
             <a href="https://maxafath.github.io/the-zen-project/">
-                <img src={upcycleImg} alt="Upcycle"></img>
+                <img src={imgTwo} alt="Upcycle"></img>
             </a>
             <h4 className="title">upcycle</h4>
         </div>
