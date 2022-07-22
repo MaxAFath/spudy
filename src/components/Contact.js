@@ -16,7 +16,7 @@ function Contact() {
 
     return (
         <section>
-            <h1>Contact me</h1>
+            <h1 id="contact">Contact me</h1>
             <form id="contact-form">
                 <div>
                     <label htmlFor="name">Name:</label>

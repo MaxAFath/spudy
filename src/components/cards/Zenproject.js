@@ -5,7 +5,7 @@ function theZen(){
     return(
         <div className="card flex-row">
                 <a href="https://maxafath.github.io/the-zen-project/">
-                    <img src={zenProjectimg} alt="The Zen Porject"></img>
+                    <img src={zenProjectimg} className="card-img" alt="The Zen Porject"></img>
                 </a>
                 <h4 className="title">Zen Project</h4>
             </div>

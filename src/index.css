@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  background-color: rgb(17, 17, 202);
 }
 
 code {
@@ -12,8 +14,70 @@ code {
     monospace;
 }
 
-.card {
-  border-style: solid;
-  width: 450px;
+ul{
+  background-color: grey;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li{
+  float: left;
+}
+
+li  a{
+  display: block;
+  padding: 8px;
+}
+
+li a:hover{
+  background-color: #dddd;
+}
+
+.active{
+  background-color: green;
+}
+
+.hero{
+  padding-top: 15px;
+  background-color: teal;
+}
+.projects {
+  display: flexbox;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color:dimgray;
+}
+
+.box{
+  display: flexbox;
+  flex-wrap: wrap;
+}
+
+.card img {
+  width: 400px;
   height: 350px;
+}
+
+.footer {
+  display: flexbox;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: silver;
+}
+
+.footer h2{
+  padding: 5px;
+}
+
+.linkbox{
+  align-items: center;
+}
+
+.img-thubnail {
+  width: 25px;
+  height: 25px;
 }
