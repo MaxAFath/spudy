@@ -1,6 +1,7 @@
 import React from "react";
 import ZenProject from "./cards/Zenproject";
 import UpcycleStore from "./cards/Upcycle";
+import Oracle from "./cards/Oracle";
 
 
 
@@ -13,7 +14,7 @@ function projects() {
                 <div className="box">
                     <ZenProject></ZenProject>
                     <UpcycleStore></UpcycleStore>
-                    
+                    <Oracle></Oracle>
                 </div>
             </div>
         </section>

@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  background-color: rgb(17, 17, 202);
+  background-color: #a8a8a8;
 }
 
 code {
@@ -49,13 +49,22 @@ li a:hover{
   display: flexbox;
   flex-wrap: wrap;
   align-items: center;
-  background-color:dimgray;
+  background-color:#696969;
   padding: 5px;
 }
 
 .box{
+  align-items: center;
   display: flexbox;
+  flex-direction: row column;
   flex-wrap: wrap;
+}
+
+.card{
+  padding: auto;
+  background-color: #a8a8a8;
+  
+  width: 450px;
 }
 
 .card img {
